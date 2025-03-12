@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{454C5011-9A77-4415-A6A4-79CE0AE540DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "src\TicTacToe\TicTacToe.csproj", "{05666FD4-780F-4A7A-B858-E8FBA4FD28A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Domain", "src\TicTacToe.Domain\TicTacToe.Domain.csproj", "{E3813EB3-F025-4EAB-9F21-91EC89517613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Application", "src\TicTacToe.Application\TicTacToe.Application.csproj", "{4D65599C-1C2E-4943-9E50-7CEBBFE001C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Infrastructure", "src\TicTacToe.Infrastructure\TicTacToe.Infrastructure.csproj", "{2E54F82C-2051-40DB-BC25-E3FB7F83C20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Presentation", "src\TicTacToe.Presentation\TicTacToe.Presentation.csproj", "{9CF3810F-9C59-4F76-AD07-91828822FFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05666FD4-780F-4A7A-B858-E8FBA4FD28A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05666FD4-780F-4A7A-B858-E8FBA4FD28A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05666FD4-780F-4A7A-B858-E8FBA4FD28A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05666FD4-780F-4A7A-B858-E8FBA4FD28A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3813EB3-F025-4EAB-9F21-91EC89517613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3813EB3-F025-4EAB-9F21-91EC89517613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3813EB3-F025-4EAB-9F21-91EC89517613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3813EB3-F025-4EAB-9F21-91EC89517613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D65599C-1C2E-4943-9E50-7CEBBFE001C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D65599C-1C2E-4943-9E50-7CEBBFE001C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D65599C-1C2E-4943-9E50-7CEBBFE001C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D65599C-1C2E-4943-9E50-7CEBBFE001C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E54F82C-2051-40DB-BC25-E3FB7F83C20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E54F82C-2051-40DB-BC25-E3FB7F83C20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E54F82C-2051-40DB-BC25-E3FB7F83C20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E54F82C-2051-40DB-BC25-E3FB7F83C20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF3810F-9C59-4F76-AD07-91828822FFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF3810F-9C59-4F76-AD07-91828822FFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF3810F-9C59-4F76-AD07-91828822FFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF3810F-9C59-4F76-AD07-91828822FFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05666FD4-780F-4A7A-B858-E8FBA4FD28A2} = {454C5011-9A77-4415-A6A4-79CE0AE540DF}
+		{E3813EB3-F025-4EAB-9F21-91EC89517613} = {454C5011-9A77-4415-A6A4-79CE0AE540DF}
+		{4D65599C-1C2E-4943-9E50-7CEBBFE001C3} = {454C5011-9A77-4415-A6A4-79CE0AE540DF}
+		{2E54F82C-2051-40DB-BC25-E3FB7F83C20C} = {454C5011-9A77-4415-A6A4-79CE0AE540DF}
+		{9CF3810F-9C59-4F76-AD07-91828822FFBB} = {454C5011-9A77-4415-A6A4-79CE0AE540DF}
+	EndGlobalSection
+EndGlobal
