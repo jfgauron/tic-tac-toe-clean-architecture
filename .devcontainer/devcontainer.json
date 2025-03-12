@@ -1,0 +1,19 @@
+{
+  "name": "dotnet_dev",
+  "dockerFile": "Dockerfile",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "extensions.autoUpdate": "false",
+        "extensions.autoCheckUpdates": false
+      },
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  }
+}
